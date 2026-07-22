@@ -1,125 +1,112 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>プライバシーポリシー | ナイショ秘書</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プライバシーポリシー — ナイショ</title>
+<meta name="robots" content="index, follow">
 <style>
-  :root { --accent:#4F46E5; --ink:#1F2937; --gray:#6B7280; --line:#E5E7EB; }
+  :root { color-scheme: light dark; }
   * { box-sizing: border-box; }
   body {
-    margin:0; padding:0 20px 64px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN",
-                 "Noto Sans JP", Meiryo, sans-serif;
-    color: var(--ink); line-height:1.85; background:#fff;
-    -webkit-text-size-adjust:100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN",
+                 "Hiragino Sans", "Noto Sans JP", "Meiryo", sans-serif;
+    line-height: 1.85;
+    color: #1f2328;
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
   }
-  .wrap { max-width: 760px; margin: 0 auto; }
-  header { padding: 40px 0 20px; border-bottom: 1px solid var(--line); margin-bottom: 28px; }
-  h1 { font-size: 1.6rem; margin: 0 0 8px; letter-spacing: .01em; }
-  .meta { color: var(--gray); font-size: .9rem; margin: 0; }
-  h2 {
-    font-size: 1.1rem; margin: 34px 0 10px; padding-left: 11px;
-    border-left: 4px solid var(--accent);
-  }
-  p { margin: 10px 0; }
-  ul { padding-left: 1.3em; margin: 10px 0; }
-  li { margin: 7px 0; }
-  strong { font-weight: 600; }
-  a { color: var(--accent); }
-  .lead {
-    background:#EEF0FF; border-radius:12px; padding:16px 18px; margin:22px 0;
-    font-size:.98rem;
-  }
-  footer {
-    margin-top: 44px; padding-top: 20px; border-top: 1px solid var(--line);
-    color: var(--gray); font-size: .86rem;
+  .wrap { max-width: 760px; margin: 0 auto; padding: 40px 20px 80px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; line-height: 1.4; }
+  h2 { font-size: 1.15rem; margin: 2.2em 0 0.6em; padding-bottom: 0.3em;
+       border-bottom: 1px solid #e3e6ea; }
+  .updated { color: #6a737d; font-size: 0.9rem; margin: 0 0 2em; }
+  p { margin: 0.7em 0; }
+  ul { padding-left: 1.4em; }
+  li { margin: 0.5em 0; }
+  strong { font-weight: 700; }
+  .lead { background: #f4f8ff; border: 1px solid #d7e6ff; border-radius: 10px;
+          padding: 16px 18px; margin: 1.5em 0; }
+  .contact { background: #f6f8fa; border-radius: 10px; padding: 16px 18px; }
+  .note { color: #6a737d; font-size: 0.85rem; }
+  a { color: #1a66ff; }
+  footer { margin-top: 3em; padding-top: 1.5em; border-top: 1px solid #e3e6ea;
+           color: #6a737d; font-size: 0.85rem; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6edf3; background: #0d1117; }
+    h2 { border-bottom-color: #21262d; }
+    .lead { background: #11203a; border-color: #1f3a63; }
+    .contact { background: #161b22; }
+    .updated, .note, footer { color: #8b949e; }
+    a { color: #58a6ff; }
+    footer { border-top-color: #21262d; }
   }
 </style>
 </head>
 <body>
 <div class="wrap">
 
-<header>
   <h1>プライバシーポリシー</h1>
-  <p class="meta">アプリ「ナイショ秘書」 / 最終更新日: 2026年7月19日</p>
-</header>
+  <p class="updated">アプリ「ナイショ」（「ナイショ秘書」「ナイショ日記」を含みます）&nbsp;/&nbsp;最終更新日: 2026年7月22日</p>
 
-<p>本プライバシーポリシーは、アプリ「ナイショ秘書」（以下「本アプリ」）における情報の取り扱いについて定めるものです。</p>
+  <p>本プライバシーポリシーは、アプリ「ナイショ」（以下「本アプリ」）における情報の取り扱いについて定めるものです。本アプリは、ホーム画面から「秘書」と「日記」の2つの機能を選んで利用できる統合アプリです。</p>
 
-<div class="lead">
-  本アプリのAI処理は<strong>すべて端末内で完結</strong>します。あなたが入力した文章が、当方のサーバーや第三者に送信されることはありません。
-</div>
+  <div class="lead">
+    <h2 style="margin-top:0;border:none;padding:0;font-size:1.1rem;">1. 基本方針 — すべて端末内で処理します</h2>
+    <p>本アプリのAI処理（秘書の文章生成・翻訳・要約・校正・議事録作成・タスク管理、日記のAIによる振り返り・週次まとめなど）は、すべて<strong>お使いの端末内（オンデバイス）</strong>で行われます。あなたが入力・貼り付け・記録した内容（メール本文、文章、発言ログ、日記の本文・気分・写真など）を、当方のサーバーや第三者に送信・保存することは<strong>ありません</strong>。</p>
+  </div>
 
-<h2>1. 基本方針 — 端末内で処理します</h2>
-<p>本アプリのAIによる文章処理（生成・翻訳・要約・校正・議事録作成など）は、すべてお使いの端末内で行われます。あなたが入力・貼り付けたテキスト（メール本文、文章、発言ログ等）を、当方のサーバーや第三者に送信・保存することはありません。</p>
+  <h2>2. 当方が収集・送信しない情報</h2>
+  <p>本アプリは、あなたの入力・記録した内容を外部に送信・収集しません。作成した下書き・タスク・定型文・日記（本文・気分・写真・タグ・AIメモ）は、端末内にのみ保存されます。</p>
+  <p>また本バージョンでは、<strong>利用統計（アクセス解析）・クラッシュ診断・プッシュ通知トークンなどのデータ送信は行っていません</strong>（これらの機能は無効化しています）。したがって、匿名の統計情報を含め、当方が外部で受け取るデータはありません。</p>
 
-<h2>2. 当方が収集しない情報</h2>
-<p>本アプリは、AI機能の利用にあたり、入力された文章の内容を外部に送信・収集しません。作成された下書き、タスク、定型文は、端末内にのみ保存されます。</p>
-<p>また、本アプリは以下の情報を一切収集しません。</p>
-<ul>
-  <li>写真・動画・音声・ファイル</li>
-  <li>連絡先・カレンダーの予定</li>
-  <li>位置情報</li>
-  <li>氏名・メールアドレス等の個人情報</li>
-</ul>
+  <h2>3. 通信が発生する場面</h2>
+  <p>本アプリが外部と通信するのは、次の場合に限られます。</p>
+  <ul>
+    <li><strong>AIモデルのダウンロード</strong>: 初回などに、AIモデルの提供元（Hugging Face 等）からモデルファイルをダウンロードします。この際、提供元のサービスにアクセスします。提供元の利用規約・プライバシーポリシーが適用されます。ダウンロードしたモデルは秘書・日記の両方で共用します。</li>
+    <li><strong>アプリ内購入（課金）</strong>: 有料機能の購入時に、Google Play 課金（Google Play Billing）を利用します。決済情報は Google が処理し、当方がクレジットカード情報等を取得することはありません。</li>
+  </ul>
+  <p class="note">上記以外の目的で、あなたの記録した内容が通信に用いられることはありません。</p>
 
-<h2>3. 通信が発生する場面・収集する情報</h2>
-<p>本アプリは、次の目的で外部と通信する場合があります。</p>
-<ul>
-  <li><strong>AIモデルのダウンロード</strong>: 初回などに、AIモデルの提供元（Hugging Face 等）からモデルファイルをダウンロードします。また、利用可能なモデル一覧を GitHub から取得します。各提供元の利用規約・プライバシーポリシーが適用されます。</li>
-  <li><strong>アプリ内購入（課金）</strong>: 有料機能の購入時に、Google Play 課金（Google Play Billing）を利用します。決済情報は Google が処理し、当方がクレジットカード情報等を取得することはありません。</li>
-  <li><strong>利用状況データ（Firebase Analytics）</strong>: アプリの品質改善のため、匿名の利用状況（画面の表示、機能の選択、ボタン操作などの操作イベント、端末の機種・OSバージョン、アプリのバージョン）を Google（Firebase）へ送信する場合があります。<strong>入力・作成した文章の内容は一切含まれません。</strong></li>
-  <li><strong>クラッシュ診断データ（Firebase Crashlytics）</strong>: アプリの安定性向上のため、異常終了時に診断情報（端末の機種・OSバージョン、エラーの発生箇所やスタックトレース、アプリのバージョン、発生日時など）を Google（Firebase）へ送信します。<strong>入力・作成した文章の内容は含まれません。</strong></li>
-  <li><strong>プッシュ通知（Firebase Cloud Messaging）</strong>: お知らせの配信のため、Firebase Cloud Messaging を利用します。この際、端末を識別するための登録トークンが生成・利用されます。</li>
-</ul>
+  <h2>4. 端末内に保存されるデータ</h2>
+  <p>本アプリのデータは、すべてお使いの端末内に保存されます。</p>
+  <ul>
+    <li><strong>日記</strong>: 本文・気分・写真・タグ・AIメモは、端末内の暗号化された領域に保存されます。任意で暗証番号（PIN）によるアプリロックを設定できます。</li>
+    <li><strong>秘書</strong>: 定型文・タスクなどは端末内に保存されます。</li>
+    <li><strong>バックアップ</strong>: バックアップの書き出し／取り込みは、あなたが操作したときのみ、あなたが選んだファイルに対して行われます。自動的に外部へ送信されることはありません。</li>
+  </ul>
+  <p>アプリを削除すると、これらの端末内データも削除されます（別途ご自身でバックアップした場合を除く）。</p>
 
-<h2>4. 識別子について</h2>
-<p>上記の利用状況データ・クラッシュ診断・プッシュ通知にともない、個人を直接特定しない擬似的な識別子（Firebase のアプリインスタンスID、プッシュ通知の登録トークン）が利用されます。これらは氏名やメールアドレス等の個人情報とは紐づけていません。</p>
+  <h2>5. 端末の権限について</h2>
+  <p>本アプリが要求する実行時権限は、<strong>通知</strong>のみです（日記の「書くリマインダー」通知、モデルのダウンロード進捗・完了の通知のため）。許可は任意です。</p>
+  <p>本アプリは、<strong>カメラ・マイク・連絡先・カレンダー・位置情報</strong>を使用しません。日記の写真添付は端末標準の画像選択（ストレージ権限不要の方式）を、音声入力は端末標準の音声認識機能を利用するため、これらの専用権限を本アプリが取得することはありません。</p>
 
-<h2>5. 送信のオフ（オプトアウト）</h2>
-<p>利用状況データおよびクラッシュ診断データの送信は、アプリ内の「<strong>プライバシー設定</strong>」からいつでもオフにできます。オフにすると、以降これらのデータは送信されません。</p>
-<p>プッシュ通知が不要な場合は、端末の通知設定から本アプリの通知を無効にできます。</p>
+  <h2>6. 第三者サービス</h2>
+  <p>本アプリは、以下の第三者サービスを利用する場合があります。各サービスのプライバシーポリシーもご確認ください。</p>
+  <ul>
+    <li>Google Play（配信・課金）</li>
+    <li>AIモデル提供元（Hugging Face 等）— モデルのダウンロード時のみ</li>
+  </ul>
 
-<h2>6. 端末の権限について</h2>
-<p>本アプリが使用する権限は、以下のとおりです。</p>
-<ul>
-  <li><strong>通知</strong>: モデルのダウンロード進捗・完了、およびお知らせの通知のため</li>
-  <li><strong>ネットワーク接続</strong>: AIモデルのダウンロード等のため</li>
-</ul>
-<p>本アプリは、<strong>カメラ・マイク・連絡先・カレンダー・位置情報の権限を使用しません。</strong></p>
+  <h2>7. 児童のプライバシー</h2>
+  <p>本アプリは、特に児童から個人情報を収集することを意図していません。そもそも当方が外部で個人情報を受け取ることはありません。</p>
 
-<h2>7. データの保存</h2>
-<p>作成した文章、タスク、定型文などは、お使いの端末内に保存されます。アプリを削除すると、これらの端末内データも削除されます（別途バックアップした場合を除く）。</p>
+  <h2>8. 本ポリシーの変更</h2>
+  <p>本ポリシーは予告なく変更されることがあります。重要な変更がある場合は、アプリやストア上で告知します。</p>
 
-<h2>8. データの削除について</h2>
-<ul>
-  <li>端末内のデータ（タスク・定型文・設定等）は、アプリの削除、または端末の設定からアプリのデータを消去することで削除されます。</li>
-  <li>送信済みの匿名の利用状況・クラッシュ診断データの削除をご希望の場合は、第11項のお問い合わせ先までご連絡ください。</li>
-</ul>
+  <h2>9. お問い合わせ</h2>
+  <div class="contact">
+    <p style="margin-top:0;">本アプリおよび本ポリシーに関するお問い合わせは、下記までご連絡ください。</p>
+    <p style="margin-bottom:0;">
+      運営者: 須田 健司<br>
+      連絡先メール: <a href="mailto:naishoseisakusho@gmail.com">naishoseisakusho@gmail.com</a>
+    </p>
+  </div>
 
-<h2>9. 第三者サービス</h2>
-<p>本アプリは、以下の第三者サービスを利用する場合があります。各サービスのプライバシーポリシーもご確認ください。</p>
-<ul>
-  <li>Google Play（配信・課金）</li>
-  <li>Firebase（Google）— 利用状況データ（Analytics）、クラッシュ診断（Crashlytics）、プッシュ通知（Cloud Messaging）</li>
-  <li>AIモデル提供元（Hugging Face 等）、モデル一覧の取得（GitHub）</li>
-</ul>
-
-<h2>10. 児童のプライバシー</h2>
-<p>本アプリは一般利用者（成人）を対象としており、児童を対象とした設計ではありません。児童から個人情報を収集することを意図していません。</p>
-
-<h2>11. 本ポリシーの変更 / お問い合わせ</h2>
-<p>本ポリシーは予告なく変更されることがあります。重要な変更がある場合は、アプリやストア上で告知します。</p>
-<p>本アプリおよび本ポリシーに関するお問い合わせは、下記までご連絡ください。</p>
-<ul>
-  <li>運営者: 須田 健司</li>
-  <li>連絡先メール: <a href="mailto:naishoseisakusho@gmail.com">naishoseisakusho@gmail.com</a></li>
-</ul>
-
-<footer>
-  © 2026 須田 健司 / ナイショ秘書. All rights reserved.
-</footer>
+  <footer>
+    © 2026 須田 健司 / ナイショ. All rights reserved.
+  </footer>
 
 </div>
 </body>
